@@ -1,5 +1,5 @@
 FROM jenkins/jenkins:alpine
-LABEL key="Carlos Nunez <dev@carlosnunez.me>" 
+LABEL key="Samuel Olowoyeye"
 
 COPY plugins.txt /usr/share/jenkins/plugins.txt
 RUN /usr/local/bin/install-plugins.sh < /usr/share/jenkins/plugins.txt
