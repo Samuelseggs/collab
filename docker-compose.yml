@@ -12,8 +12,8 @@ services:
   aws:
     image: anigeo/awscli
     environment:
-      AWS_ACCESS_KEY_ID: AKIAUJMDNUVW5APTP4PM
-      AWS_SECRET_ACCESS_KEY: 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
+      AWS_ACCESS_KEY_ID: 
+      AWS_SECRET_ACCESS_KEY: 
       AWS_REGION: us-west-2
       AWS_DEFAULT_REGION: us-west-2
     volumes:
@@ -25,8 +25,8 @@ services:
       dockerfile: terraform.Dockerfile
       context: .
     environment:
-      AWS_ACCESS_KEY_ID: AKIAUJMDNUVW5APTP4PM
-      AWS_SECRET_ACCESS_KEY: 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
+      AWS_ACCESS_KEY_ID: 
+      AWS_SECRET_ACCESS_KEY: 
       AWS_REGION: us-west-2
       AWS_DEFAULT_REGION: us-west-2
     volumes:
