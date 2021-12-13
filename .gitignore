@@ -1,3 +1,4 @@
 .terraform/
 jenkins_home/
 website/
+secret/
