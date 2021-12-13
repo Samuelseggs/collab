@@ -3,3 +3,4 @@ seed
 git
 another changes
 the next game
+soft reset
